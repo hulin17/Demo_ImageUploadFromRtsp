@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="testService" class="com.example.demo.TestService"></bean>
+    <bean id="requestConfig" class="org.apache.http.client.config.RequestConfig"/>
+    <bean id="httpUtil" class="com.example.demo.util.HttpUtil"/>
+</beans>
